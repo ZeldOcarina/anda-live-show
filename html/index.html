@@ -17,25 +17,20 @@
 <!-- Wrapper -->
 <div class="wrapper">
     <!-- Header -->
-    <header class="header">
-        <div class="container-grid">
+    <header id="header-nav" class="header">
+        <div class="layout-grid">
             <a class="logo" href="#"><img src="assets/images/logo.png" alt="ANDA" class="img-fluid" /></a>
-            <button class="header-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <nav class="navbar" id="navbarToggle">
+            <button class="header-toggler" type="button" onclick="navFunction()"><span></span><span></span><span></span></button>
+            <nav class="navbar">
                 <ul>
-                    <li class="nav-item active"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">About</a></li>
-                    <li class="nav-item"><a href="#">Guests</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li ><a href="about.html">About</a></li>
+                    <li><a href="guests.html">Guests</a></li>
                 </ul>
                 <ul>    
-                    <li class="nav-item"><a href="#">Shows</a></li>
-                    <li class="nav-item"><a href="#">Courses</a></li>
-                    <li class="nav-btn"><a href="#">Contact</a></li>
+                    <li><a href="#">Shows</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -43,16 +38,16 @@
     <!-- End Header -->
     <!-- Banner -->
     <section class="banner">
-        <div class="container">
+        <div class="layout">
            <h2>The Renaissance of Enterpreneurship</h2>
         </div>
     </section>
     <!-- End Banner -->
-    <!-- Banner Article Section -->
-    <section class="banner-article">
-        <div class="container-grid">
+    <!-- Top Article Section -->
+    <section class="article-top">
+        <div class="layout-grid">
             <div class="row">
-                <!-- Banner Article -->
+                <!-- Top Article -->
                 <div class="column-s6">
                     <h3>RECENT</h3>
                     <div class="article-post">
@@ -61,13 +56,13 @@
                             <button class="post-play"><img src="assets/images/play-button.svg" alt="pay" class=" img-fluid" /></button>
                             <div class="post-tag">Almost before we knew it</div>
                         </div>
-                        <div class="post-text">
+                        <div class="post-text text-w80">
                             <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et.</p>
                         </div>
                     </div>
                 </div>
-                <!-- //Banner Article -->
-                <!-- Banner Article -->
+                <!-- //Top Article -->
+                <!-- Top Article -->
                 <div class="column-s6">
                     <h3>POPULAR</h3>
                     <div class="article-post">
@@ -76,36 +71,36 @@
                             <button class="post-play"><img src="assets/images/play-button.svg" alt="pay" class=" img-fluid" /></button>
                             <div class="post-tag">We had left the ground</div>
                         </div>
-                        <div class="post-text">
+                        <div class="post-text text-w80">
                             <p>Lucas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est et.</p>
                         </div>
                     </div>
                 </div>
-                <!-- //Banner Article -->
+                <!-- //Top Article -->
             </div>
         </div>
     </section>
-    <!-- End Banner Article Section -->
+    <!-- End Top Article Section -->
    <!-- Latest Article Section -->
     <section class="article">
-        <div class="container">
+        <div class="layout">
             <div class="white-line"></div>
             <!-- Title -->
             <div class="row title">
-                <div class="column-s3">
+                <div class="column-s4">
                     <h2>LATEST</h2>
                 </div>
-                <div class="column-s3">
+                <div class="column-s4">
                    <p class="text">Lucas molestias excepturi sint occaecati cupiditate non provident, similique sunt in</p>
                 </div>
-                <div class="column-s3 text-right">
+                <div class="column-s4 text-right">
                     <a href="#" class="link">Learn more</a>
                 </div>
             </div>
             <!-- //Title -->
             <div class="row">
                 <!-- Article Post-->
-                <div class="column-s3">
+                <div class="column-s4">
                     <div class="article-post">
                         <div class="post-image">
                             <img src="assets/images/post-image.png" alt="Almost before we knew it" class=" img-fluid" />
@@ -122,7 +117,7 @@
                 </div>
                 <!-- //Article Post -->
                 <!-- Article Post -->
-                <div class="column-s3">
+                <div class="column-s4">
                     <div class="article-post">
                         <div class="post-image">
                             <img src="assets/images/immagine-3.png" alt="Almost before we knew it" class=" img-fluid" />
@@ -139,7 +134,7 @@
                 </div>
                 <!-- //Article Post -->
                 <!-- Article Post -->
-                <div class="column-s3">
+                <div class="column-s4">
                     <div class="article-post">
                         <div class="post-image">
                             <img src="assets/images/zoom-background.png" alt="We had left the ground" class=" img-fluid" />
@@ -161,24 +156,24 @@
    <!-- //Latest Article Section -->
    <!-- Guests Article Section -->
    <section class="article">
-    <div class="container">
+    <div class="layout">
         <div class="white-line"></div>
         <!-- Title -->
         <div class="row title">
-            <div class="column-s3">
+            <div class="column-s4">
                 <h2>GUESTS</h2>
             </div>
-            <div class="column-s3">
+            <div class="column-s4">
                <p class="text">Lucas molestias excepturi sint occaecati cupiditate non provident, similique sunt in</p>
             </div>
-            <div class="column-s3 text-right">
+            <div class="column-s4 text-right">
                 <a href="#" class="link">Learn more</a>
             </div>
         </div>
         <!-- //Title -->
         <div class="row">
             <!-- Article Post-->
-            <div class="column-s3">
+            <div class="column-s4">
                 <div class="article-post">
                     <div class="post-image">
                         <img src="assets/images/immagine-3.png" alt="Almost before we knew it" class=" img-fluid" />
@@ -195,7 +190,7 @@
             </div>
             <!-- //Article Post -->
             <!-- Article Post -->
-            <div class="column-s3">
+            <div class="column-s4">
                 <div class="article-post">
                     <div class="post-image">
                         <img src="assets/images/zoom-background.png" alt="Almost before we knew it" class=" img-fluid" />
@@ -212,7 +207,7 @@
             </div>
             <!-- //Article Post -->
             <!-- Article Post -->
-            <div class="column-s3">
+            <div class="column-s4">
                 <div class="article-post">
                     <div class="post-image">
                         <img src="assets/images/post-image.png" alt="We had left the ground" class=" img-fluid" />
@@ -234,24 +229,24 @@
 <!-- //Guests Article Section -->
     <!-- BUSINESS Article Section -->
    <section class="article">
-    <div class="container">
+    <div class="layout">
         <div class="white-line"></div>
         <!-- Title -->
         <div class="row title">
-            <div class="column-s3">
+            <div class="column-s4">
                 <h2>BUSINESS</h2>
             </div>
-            <div class="column-s3">
+            <div class="column-s4">
                <p class="text">Lucas molestias excepturi sint occaecati cupiditate non provident, similique sunt in</p>
             </div>
-            <div class="column-s3 text-right">
+            <div class="column-s4 text-right">
                 <a href="#" class="link">Learn more</a>
             </div>
         </div>
         <!-- //Title -->
         <div class="row">
             <!-- Article Post-->
-            <div class="column-s3">
+            <div class="column-s4">
                 <div class="article-post">
                     <div class="post-image">
                         <img src="assets/images/zoom-background.png" alt="Almost before we knew it" class=" img-fluid" />
@@ -268,7 +263,7 @@
             </div>
             <!-- //Article Post -->
             <!-- Article Post -->
-            <div class="column-s3">
+            <div class="column-s4">
                 <div class="article-post">
                     <div class="post-image">
                         <img src="assets/images/post-image.png" alt="Almost before we knew it" class=" img-fluid" />
@@ -285,7 +280,7 @@
             </div>
             <!-- //Article Post -->
             <!-- Article Post -->
-            <div class="column-s3">
+            <div class="column-s4">
                 <div class="article-post">
                     <div class="post-image">
                         <img src="assets/images/immagine-3.png" alt="We had left the ground" class=" img-fluid" />
@@ -307,8 +302,8 @@
 <!-- //BUSINESS Article Section -->
 
     <!-- Press Section -->
-    <section class="article press-article">
-        <div class="container">
+    <section class="article article-press">
+        <div class="layout">
             <div class="white-line"></div>
             <!-- Title -->
             <div class="row title">
@@ -319,7 +314,7 @@
             <!-- //Title -->
             <div class="row">
                 <!-- Article Column-->
-                <div class="column-s3">
+                <div class="column-s4">
                     <!-- Article Item -->
                     <div class="article-item">
                         <p>Lucas molestias excepturi sint occaecati cupiditate non provident, similique sunt in</p>
@@ -341,7 +336,7 @@
                 </div>
                 <!-- //Article Column-->
                 <!-- Article Column-->
-                <div class="column-s3">
+                <div class="column-s4">
                     <!-- Article Item -->
                     <div class="article-item">
                         <p>Lucas molestias excepturi sint occaecati cupiditate non provident, similique sunt in</p>
@@ -363,27 +358,31 @@
                 </div>
                 <!-- //Article Column-->
                 <!-- Article Column-->
-                <div class="column-s3">
+                <div class="column-s4">
                     <!-- Contact Form -->
                     <div class="contact-form">
                         <div class="form-group">
-                            <input type="text" placeholder="Full name" class="input-control" />
+                            <input type="text" placeholder="Full name" class="form-control" />
                         </div>
                         <div class="form-group">
-                            <input type="email" placeholder="Email address*" class="input-control" />
+                            <input type="email" placeholder="Email address*" class="form-control" />
                         </div>
-                        <div class="form-group">
-                            <select>
+                        <div class="form-group form-phone">
+                            <select class="form-control">
                                 <option>+1</option>
                                 <option>+2</option>
                                 <option>+3</option>
                                 <option>+4</option>
                                 <option>+5</option>
                             </select>
-                            <input type="text" placeholder="Phone number" class="input-control" />
+                            <input type="text" placeholder="Phone number" class="form-control" />
                         </div>
-                        <div class="form-group">
-                            <input type="date" placeholder="Schedule a call" class="input-control" />
+                        <div class="form-group form-date">
+                            <div class="icon"><img src="assets/images/calendar-icon.svg" class="img-fluid" /></div>
+                            <input type="text" placeholder="Schedule a call" class="form-control" />
+                        </div>
+                        <div class="form-button text-right">
+                            <input type="submit" value="Subscribe" class="btn btn-default" />
                         </div>
                     </div>
                     <!-- //Contact Form -->
@@ -395,18 +394,22 @@
     <!-- //Press Section -->
     <!-- Footer Section -->
     <footer class="footer">
-        <div class="container">
-            <div class="footerNav">
+        <div class="layout">
+            <div class="footer-nav">
                 <ul>
                     <li><a href="#">Ady Production, LLC</a></li>
                     <li>Copyright 2020</li>
                     <li>All Rights Reserved</li>
                 </ul>
             </div>
+            
         </div>
     </footer>
     <!-- //Footer Section -->
 </div>
 <!-- //Wrapper --> 
+
+<!-- JavaScript -->
+<script src="assets/js/custom.js" type="text/javascript"></script>
 </body>
 </html>
