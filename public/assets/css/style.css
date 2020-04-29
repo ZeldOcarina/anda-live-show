@@ -38,7 +38,7 @@ h1, h2, h3, .link{font-family: 'Work Sans', sans-serif;}
 .link{color: #97179E;}
 
 /****** Common Css ***/
-.layout, .layout-grid, .header-grid { max-width: 85%; width: 100%; margin: auto; padding: 0 15px; position: relative; }
+.layout, .layout-grid, .header-grid { max-width: 1080px; width: 100%; margin: auto; padding: 0 15px; position: relative; }
 .layout-grid{ max-width: 68%;}
 .header-grid{ max-width: 68%; min-width: 1000px;}
 .btn-default{ background: #97179E; border: 1px solid #97179E; border-radius: 4px; cursor: pointer;  color: #FFFFFF; padding: 0.6rem 2rem; font-family: 'Lora', serif; font-size: 16px; font-weight: 500; letter-spacing: 1.14px; line-height: 20px; text-align: center; }
@@ -183,7 +183,7 @@ h1, h2, h3, .link{font-family: 'Work Sans', sans-serif;}
 /* Responsive Css
 /*-------------------------------------------------------*/
 @media (max-width: 1100px) {
-.layout, .layout-grid, .header-grid { max-width: 100%; width: 100%;}
+.layout, .layout-grid, .header-grid { max-width: 100%; width: 100%; min-width: 100%;}
 }
 @media (min-width: 990px) {
 .hide-md, .header-toggler{ display: none;}
