@@ -38,7 +38,7 @@ h1, h2, h3, .link{font-family: 'Work Sans', sans-serif;}
 .link{color: #97179E;}
 
 /****** Common Css ***/
-.layout, .layout-grid { max-width: 1110px; width: 100%; margin: auto; padding: 0 15px; position: relative; }
+.layout, .layout-grid { max-width: 1080px; width: 100%; margin: auto; padding: 0 15px; position: relative; }
 .layout-grid{ max-width: 900px;}
 
 .btn-default{ background: #97179E; border: 1px solid #97179E; border-radius: 4px; cursor: pointer;  color: #FFFFFF; padding: 0.6rem 2rem; font-family: 'Lora', serif; font-size: 16px; font-weight: 500; letter-spacing: 1.14px; line-height: 20px; text-align: center; }
@@ -72,18 +72,18 @@ h1, h2, h3, .link{font-family: 'Work Sans', sans-serif;}
 .header .navbar { padding: 37px 0px;  display: flex; display: -webkit-flex; align-items: center;}
 .header .navbar ul { display: flex; display: -webkit-flex; justify-content: center; align-items: center; }
 
-.navbar ul > li{ margin: 0 22px;position:relative;align-items: center;}
+.navbar ul > li{ margin: 0 15px;position:relative;align-items: center;}
 .navbar ul:first-child, .navbar ul > li:last-child{ margin-right: auto;}
 .navbar ul:last-child, .navbar ul > li:first-child{ margin-left: auto;}
-.navbar ul > li.active a:before { display: block; content: ""; background: #97179E; height: 6px; position: absolute; top: -35px; width: 100%; }
-.navbar ul > li > a {color: rgba(0,0,0,0.8); font-size: 16px; letter-spacing: -0.2px; padding: 0 0.5rem; position: relative; transition: all .35s ease; }
-.navbar ul > li.active a, .navbar ul > li > a:hover{ color: #97179E;  font-weight: 600;}
+.navbar ul > li.active a:before { display: block; content: ""; background: #97179E; height: 6px; position: absolute; top: -37px; width: 100%; }
+.navbar ul > li > a {color: rgba(0,0,0,0.8); display: inline-block; font-size: 16px; letter-spacing: -0.2px; padding: 0 0rem; min-width: 60px; position: relative; transition: all .35s ease; }
+.navbar ul > li.active a, .navbar ul > li > a:hover{ color: #97179E;  font-weight: 600;} 
 
 /*-------------------------------------------------------*/
 /*  Banner Css
 /*-------------------------------------------------------*/
-.banner { background: url(../images/immagine.jpg) no-repeat center;  display: flex; display: -webkit-flex; position: relative; min-height: 600px;  }
-.banner-inner{ background: url(../images/inner-banner.png) no-repeat center;  min-height: 300px;}
+.banner { background: url(../images/immagine.jpg) no-repeat center; background-size: cover; padding-bottom: 42px;  display: flex; display: -webkit-flex; position: relative; min-height: 600px;  }
+.banner-inner{ background: url(../images/inner-banner.png) no-repeat center;  min-height: 300px; padding-bottom: 0px;}
 .banner h2 { font-size: 64px; font-weight: 300; line-height: 4.7rem; color: #FFFFFF; text-align: center; }
 .article-top{    margin-top: -126px; margin-bottom: 54px;}
 .article-top h3{ color: #FFFFFF; font-size: 20px; font-weight: 600; letter-spacing: 2.86px; line-height: 24px; margin-bottom: 10px; }
