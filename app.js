@@ -80,6 +80,18 @@ app.get("/about", (req, res) => {
 app.get("/guests", (req, res) => {
   res.sendFile(path.join(__dirname + "/views/guests.html"));
 });
+
+app.get("/courses", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/courses.html"));
+});
+
+app.get("/shows", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/shows.html"));
+});
+
+app.get("/contact", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/contact.html"));
+});
 /*app.use('/api/v1/tours', tourRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewRouter);
